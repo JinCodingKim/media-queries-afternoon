@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+.image-background {
+  background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 759px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+
+.welcome-text {
+  color: white;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.greet-text {
+  color: white;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.body-link {
+  border: #fed136 solid 1px;
+  border-radius: 5px;
+  height: 70px;
+  width: 230px;
+  background-color: #fed136;
+  text-align: center;
+  padding: 22.5px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+}
+
+.body-link:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  .body-container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 770px) {
+  .image-background {
+    height: 490px;
+  }
+
+  .body-container {
+    max-width: 550px;
+    padding-top: 150px;
+  }
+
+  .welcome-text {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+
+  .greet-text {
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+  .body-link {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .image-background {
+    height: 550px;
+  }
+  .body-container {
+    max-width: 300px;
+    padding-top: 150px;
+  }
+}
